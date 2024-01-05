@@ -1,0 +1,59 @@
+/*@import url(//fonts.googleapis.com/earlyaccess/notosanstc.css);*/
+.h2top
+{
+    border-radius: 25px;
+    text-align: center;
+    padding: 10px;
+
+}
+.video
+	{
+        /*border-radius: 25px;外框，可以畫框線將它圍起來*/
+        /*border-style:groove ;*/
+        margin:0 auto;/*與其他元素間的距離*/
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: #f8f8f8(255, 255, 255, 0.5);
+        padding: 10px;  /*區塊留白地方、間隔*/
+        width: 550px;
+        height: 315px;
+        
+        
+	}
+.menuleg
+{
+    text-align: left;
+    padding: 10px;  /*區塊留白地方、間隔*/
+    width: 290px;
+    height: 315px;
+    background: #f8f8f899;
+    align-items: center;
+}
+.menus
+{
+    text-align: left;
+    padding: 10px;  /*區塊留白地方、間隔*/
+    width: 290px;
+    height: 350px;
+    background: #f8f8f899;
+    align-items: center;
+}
+.menub
+{
+    text-align: left;
+    padding: 10px;  /*區塊留白地方、間隔*/
+    width: 290px;
+    height: 400px;
+    background: #f8f8f899;
+    align-items: center;
+}
+.menuc
+{
+    text-align: left;
+    padding: 10px;  /*區塊留白地方、間隔*/
+    width: 290px;
+    height: 350px;
+    background: #f8f8f899;
+    align-items: center;
+}

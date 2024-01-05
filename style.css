@@ -1,0 +1,52 @@
+header,section,footer,aside,nav,article,figure,figcaption{display: block;}
+body {
+    background-color: rgb(255, 255, 255);
+    background-image: url(https://cdn2.ettoday.net/images/6509/6509883.jpg);
+    background-size: cover; /* 等比例縮放，讓圖片可以蓋滿元素寬高*/
+    overflow: scroll;
+    background-attachment: fixed;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 1.4em;
+    margin: 0px ;
+  }
+  .wrapper {
+    width: 940px;
+    
+    margin: 20px auto ;/*欄距*/
+    border: 2px solid #000000;
+    background-color: #ffffff;
+  }
+  header {
+    height: 280px;
+    
+    background-size: cover;
+    background-color: antiquewhite;
+    /*background-image: url(https://shoplineimg.com/5ab875018d1db9e3db00025b/605d5e921abea8003278d357/800x.jpg?);*/
+  }
+  h1 {
+    color: rgb(255, 255, 255);
+    text-indent: -9999px;/*定義一個區塊元素首行文字內容之前的縮排量*/
+    width: 940px;
+    height: 130px;
+    margin: 0px;
+  }
+  a:link { 
+  color: blue; 
+  }
+  a:visited { 
+  color: red; 
+  }
+  footer {
+    clear: both;
+    color:blanchedalmond;
+    background-color: #716f6f;
+    height: 30px;
+    
+  }
+  nav ul{
+    margin: 0px;
+    padding: auto;
+  }
+h2 {
+    color: rgba(7, 209, 245, 0.482);
+  }

@@ -1,0 +1,221 @@
+/*@import url(//fonts.googleapis.com/earlyaccess/notosanstc.css);*/
+
+header,section,footer,aside,nav,article,figure,figcaption{display: block;}
+body 
+{
+    
+    /*background-image: url(https://cdn2.ettoday.net/images/6509/6509883.jpg);*/
+    background-color: rgba(95, 95, 95, 0.1);
+    background-image: url(file:D:/4庭/前端練習/html/image/Odai.jpeg);
+    background-size: cover; /* 等比例縮放，讓圖片可以蓋滿元素寬高*/
+    overflow: scroll;
+    background-blend-mode: multiply;
+    background-attachment: fixed;
+    font-family: Georgia, 'Times New Roman', Times, serif,'Noto Sans TC',sans-serif;
+    line-height: 1.4em;
+
+    margin: 0px ;
+    .header {
+      background-color: #ffffff;
+      text-align: center;
+      padding: 20px;
+      }
+      /* 頂部導覽列樣式 */
+    .top nav {
+      overflow: hidden;
+      background-color: #333;
+      padding-bottom: 10px;
+      }
+    .top nav ul{
+        float:right;
+        margin-top:55px;
+        margin-right:20px;
+    }
+    .top nav ul li{
+        float:left;
+        margin-right:25px;
+        font-size:18px;
+    }
+    .top nav ul li a{
+        text-decoration: none;
+        color:white;
+    }  
+  
+      /* 頂部連結列樣式 */
+    .top nav a {
+      float: center;
+      display: inline;
+      color: #f2f2f2;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+      }
+
+      /* 懸停時改色 */
+    .top nav a:hover {
+      background-color: #ddd;
+      color: black;
+      }
+    
+    .column {
+      float: left;
+    }
+      
+      /* Left and right column */
+    .column.side {
+      width: 25%;
+    }
+
+    /* Middle column */
+    .column.middle {
+      width: 50%;
+    }
+
+    /* Clear floats after the columns */
+    .row::after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+
+    /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+    @media screen and (max-width: 600px) {
+      .column.side, .column.middle {
+        width: 100%;
+      }
+    }
+    .footer {
+      background-color: #ffffff;
+      text-align: center;
+      padding: 5px;
+      border-top:3px solid #333;
+
+      }
+    }
+
+
+    .words
+    {
+      
+      position:relative;
+      top: -15px;
+      left: 0px;
+    }
+
+  .topcolor
+  {
+    border-radius: 25px;
+    padding: 25px;
+    height: 60px;
+    
+
+  }
+  .topword
+  {
+    text-align: center;
+    color: #dddddd;
+    
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    position:relative;
+    top: -15px;
+    left: 0px;
+    line-height: normal;
+  }
+
+
+  .chestcolor
+	{
+        border-radius: 25px;
+        background: #f8f8f8;
+        padding: 25px;
+        width: 250px;
+        height: 150px;
+	}
+
+  .backcolor
+	{
+        border-radius: 25px;  
+        background: #66f84c;
+        padding: 25px;
+        width: 250px;
+        height: 150px;
+	}
+  .legcolor
+	{
+        border-radius: 25px;
+        background: #f8f8f8;
+        padding: 25px;
+        width: 250px;
+        height: 150px;
+	}
+  .shouldercolor
+	{
+        border-radius: 25px;
+        background: #fa4646;
+        padding: 25px;
+        width: 250px;
+        height: 150px;
+	}
+
+  .leftsideMenu {
+    width: 300px;
+    height: 1650px;
+    background-color:( #fcfcfc,0.3);
+    border-right: 3px solid #d1d1d1;
+    display: flex;
+    flex-direction: column;
+    
+    box-shadow: 5px 0 5px rgba(#7a7e84, 0.6);
+    text-align: center;
+    font-size: large;
+  }
+
+  .rightsideMenu {
+    width: 300px;
+    height: 1650px;
+    background-color:( #fcfcfc,0.3);
+    border-left: 3px solid #d1d1d1;
+    display: flex;
+    flex-direction: column;
+    padding: 0px 20px 0px;
+    box-shadow: 5px 0 5px rgba(#7a7e84, 0.6);
+  }
+
+  
+
+  nav {
+    h2 {
+      position: relative;
+      
+    }
+    a {
+      display: block;
+      color: #fff;
+      padding: 10px 100px;
+      position: relative;
+      font-weight: 1500;
+      text-align: center;
+  
+      .fas {
+        margin-right: -1.1em; /*/讓文字靠左對齊*/
+        transform: scale(0); /*/使圖示消失*/
+        transition: 0.3s;
+      }
+  
+      &:hover .fas {
+        margin-right: 0em; /*使文字回到原來的位置*/
+        transform: scale(1); /*/使圖示出現*/
+      }
+  
+      & + a::before {
+        content: "";
+        position: absolute;
+        border-top: 1px solid #ffffff;
+        left: 10px;
+        right: 10px;
+        top: 0px;
+      }
+    }
+  }

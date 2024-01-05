@@ -1,0 +1,25 @@
+/*@import url(//fonts.googleapis.com/earlyaccess/notosanstc.css);*/
+.chesttop
+{
+    border-radius: 25px;
+    text-align: center;
+    padding: 25px;
+
+}
+.chest
+	{
+        /*border-radius: 25px;外框，可以畫框線將它圍起來*/
+        /*border-style:groove ;*/
+        margin:0 auto;/*與其他元素間的距離*/
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: #f8f8f8(255, 255, 255, 0.5);
+        padding: 15px;  /*區塊留白地方、間隔*/
+        width: 550px;
+        height: 315px;
+        
+        
+	}
+
+
