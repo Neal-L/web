@@ -9,13 +9,22 @@ body
     background-attachment: fixed;
     font-family: Georgia, 'Times New Roman', Times, serif,'Noto Sans TC',sans-serif;
     line-height: 1.4em;
+    width: 1900px;
+    height: 1080px;
+    margin: 0px;
+    padding:0px;
+    box-sizing: border-box;
 
-    .header
+    
+}
+.header
     {
         width: 1900px;
         height: 100px;
+        background-color: rgb(70,130,180);
         border: 3px solid rgb(0, 0, 0);
         border-color: rgb(0, 0, 0); 
+        color: #ffffff;
     }
     .header h1
     {
@@ -24,7 +33,7 @@ body
     .header nav ul
     {
         margin: 0;
-        padding: 4px;
+        padding: 0px;
         text-align: center;
     }
     .header nav ul li {
@@ -34,4 +43,74 @@ body
         font-size: 15px;
         
     }
-}
+    .header nav ul li a{
+        text-decoration: none;
+        color: #ffffff;
+    }
+    .oh{
+        width: 1900px;
+        height: 176px;
+        text-align: left;
+        border: 3px solid;
+    
+        padding: 0px;
+        
+        background-color: #D7C35E;
+    }
+    .oh h2{
+        position: relative;
+        top: 29px;
+        left: 72px;
+        color: aliceblue;
+    }
+    .setter{
+        width: 1900px;
+        height: 176px;
+        text-align: left;
+        border: #000000 3px solid;
+        background-color: #000000;
+    }
+    .mb
+    {
+        width: 1900px;
+        height: 176px;
+        text-align: left;
+        border: #CD5C5C 3px solid;
+        background-color: #CD5C5C;   
+    }
+    .op
+    {
+        width: 1900px;
+        height: 176px;
+        text-align: left;
+        border: #DB7093 3px solid;
+        background-color: #DB7093;   
+    }
+    .lb
+    {
+        width: 1900px;
+        height: 176px;
+        text-align: left;
+        border: #FFA500 3px solid;
+        background-color: #FFA500;   
+    }
+
+    footer
+    {
+        width: 1900px;
+        height: 100px;
+        background-color: rgb(70,130,180);
+        border: 3px solid rgb(0, 0, 0);
+        border-color: rgb(0, 0, 0); 
+        color: #ffffff;
+    }
+    .footer h1
+    {
+        text-align: center;
+    }
+    .footer nav 
+    {
+        margin: 0;
+        padding: 4px;
+        text-align: center;
+    }
