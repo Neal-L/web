@@ -18,14 +18,16 @@ body
     
 }
 .header
-    {
-        width: 1900px;
-        height: 100px;
-        background-color: rgb(70,130,180);
-        border: 3px solid rgb(0, 0, 0);
-        border-color: rgb(0, 0, 0); 
-        color: #ffffff;
-    }
+{
+    width: 1900px;
+    height: 100px;
+    background-color: rgb(70,130,180);
+    border: 3px solid rgb(0, 0, 0);
+    border-color: rgb(0, 0, 0); 
+    color: #ffffff;
+    margin: 0px;
+    padding: 0px;
+}
     .header h1
     {
         text-align: center;
@@ -50,50 +52,81 @@ body
     .oh{
         width: 1900px;
         height: 176px;
-        text-align: left;
         border: 3px solid;
-    
-        padding: 0px;
-        
-        background-color: #D7C35E;
+        background-image:url(../image/bokuto.jpg );
+        background-position:right -50px bottom -600px ;
+        background-size: 110%;    
+        background-repeat: no-repeat;
     }
     .oh h2{
         position: relative;
         top: 29px;
-        left: 72px;
-        color: aliceblue;
+        left: 100px;
+        color: rgb(0, 0, 0);
     }
+    
     .setter{
         width: 1900px;
         height: 176px;
-        text-align: left;
-        border: #000000 3px solid;
-        background-color: #000000;
+        border: 3px solid;
+        background-image:url(../image/miya.jpg );
+        background-position:right -50px bottom -600px ;
+        background-size: 110%;    
+        background-repeat: no-repeat;
+    }
+    .setter h2{
+        position: relative;
+        top: 29px;
+        left: 1800px;
+        color: rgb(0, 9, 17);
     }
     .mb
     {
         width: 1900px;
         height: 176px;
-        text-align: left;
-        border: #CD5C5C 3px solid;
-        background-color: #CD5C5C;   
+        border: 3px solid;
+        background-image:url(../image/kulo.jpg );
+        background-position:right -450px bottom -500px ;
+        background-size: 110%;    
+        background-repeat: no-repeat;
+    }
+    .mb h2{
+        position: relative;
+        top: 29px;
+        left: 100px;
+        color: rgb(0, 0, 0);
     }
     .op
     {
         width: 1900px;
         height: 176px;
-        text-align: left;
-        border: #DB7093 3px solid;
-        background-color: #DB7093;   
+        border: 3px solid;
+        background-image:url(../image/Ushijima.jpg );
+        background-position:right 400px bottom -700px ;
+        background-size: 110%;    
+        background-repeat: no-repeat;
+    }
+    .op h2{
+        position: relative;
+        top: 29px;
+        left: 1780px;
+        color: rgb(0, 9, 17);
     }
     .lb
     {
         width: 1900px;
         height: 176px;
-        text-align: left;
-        border: #FFA500 3px solid;
-        background-color: #FFA500;   
+        border: 3px solid;
+        background-image:url(../image/Nishinoya.jpg );
+        background-position:right -550px bottom -450px ;
+        background-size: 110%;    
+        background-repeat: no-repeat;
     }
+    .lb h2{
+        position: relative;
+        top: 29px;
+        left: 100px;
+        color: rgb(0, 0, 0);
 
     footer
     {
