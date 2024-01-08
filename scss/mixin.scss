@@ -1,0 +1,39 @@
+@mixin size($width, $height) {
+    width: $width;
+    height: $height;
+}
+@mixin flex-row($justify, $align) {
+    display: flex;
+    justify-content: $justify;
+    align-items: $align;
+}
+
+@mixin flex-column($justify, $align) {
+    display: flex;
+    flex-direction: column;
+    justify-content: $align;
+    align-items: $justify;
+}
+
+@mixin flex-center-row() {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@mixin flex-center-column() {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+@mixin font($font-size, $font-weight, $color) {
+    font-size: $font-size;
+    font-weight: $font-weight;
+    color: $color;
+}
+
+@mixin border-test(){
+    border: 1px solid black;
+}
