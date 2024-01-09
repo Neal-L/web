@@ -20,15 +20,38 @@ body {
         li {
             @include size(25%, 100%);
             @include flex-center-row();
+            cursor: pointer;
+            position: relative;
 
             &:hover {
                 background-color: white;
-                transition: 0.5s ease-in-out;
-                cursor: pointer;
+                ul {
+                    display: block;
+                }
             }
+
             a {
                 text-decoration: none;
+                @include size(100%, 100%);
+                @include flex-center-row();
                 @include font(1.5rem, bold, black);
+            }
+
+            ul {
+                background-color: $gray-4;
+                list-style: none;
+                @include size(100%, auto);
+                @include position-absoute(0, 0, 0, 50px);
+                @include flex-column(left, space-around);
+                display: none;
+                li {
+                    @include size(100%, 50px);
+                    &:hover {
+                        background-color: $main-color;
+                        transition: 0.5s ease-in-out;
+                        cursor: pointer;
+                    }
+                }
             }
         }
     }
