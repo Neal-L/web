@@ -3,6 +3,7 @@ class Component_Header extends HTMLElement {
         super();
         const shadow = this.attachShadow({ mode: 'open' });
         shadow.innerHTML = `
+            <link rel="stylesheet" href="/css/header.css">
             <div class="header">
             <h1 class="title">排球訓練輔助系統</h1>
             <ul class="nav">
