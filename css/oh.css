@@ -70,14 +70,57 @@ body
         background-size: 195%;    
         
     }
-    .context{
-        width: 1250px;
+    .pcontext{
+        width: 950px;
         height: 250px;
         position: relative;
         border: 2px solid;
         left: 400px;
         top: -270px;
         background-color: #ffffff;
+    }
+    .pcontext p{
+        margin: auto;
+        padding: 2px;
+    }
+    .vedio{
+        width: 560px;
+        height: 315px;
+        position: relative;
+        margin: 5px;
+        padding: 5px;
+        border: 2px solid;
+        border-color: #000;
+        background-color: #778899
+    }
+    .vcontext{
+        width: 950px;
+        height: 250px;
+        position: relative;
+        border: 2px solid;
+        left: 600px;
+        top: -300px;
+        background-color: #000000;
+    }
+    .vcontext p{
+        margin: auto;
+        padding: 2px;
+        color:#F0E68C;
+    }
+    .vcontext h2{
+        padding: 3px;
+        margin: 3px;
+        color:#F0E68C;
+    }
+    .vb{
+        position: relative;
+        border: 2px solid;
+        background-color: #FFFAFA;
+        padding: 2px;
+    }
+    .vbr{
+        position: relative;
+        
     }
 
     footer
