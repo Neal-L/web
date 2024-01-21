@@ -26,7 +26,7 @@ body {
   box-sizing: border-box;
 }
 
-.header {
+.ohheader {
   width: 1900px;
   height: 85px;
   background-color: #778899;
@@ -40,26 +40,26 @@ body {
   flex-direction: column;
   justify-content: center;
 }
-.header h1 {
+.ohheader h1 {
   text-align: center;
 }
-.header nav ul {
+.ohheader nav ul {
   margin: -10px;
   padding: 0px;
   text-align: center;
 }
-.header nav ul li {
+.ohheader nav ul li {
   list-style-type: none;
   display: inline;
   margin: 0 5px;
   font-size: 15px;
 }
-.header nav ul li a {
+.ohheader nav ul li a {
   text-decoration: none;
   color: #ffffff;
 }
 
-.intro {
+.ohintro {
   width: 1900px;
   height: 320px;
   border: 2px solid;
@@ -70,7 +70,7 @@ body {
   justify-content: space-around;
 }
 
-.pic {
+.ohpic {
   width: 300px;
   height: 300px;
   border: 2px solid;
@@ -81,7 +81,7 @@ body {
   margin-top: 8px;
 }
 
-.pcontext {
+.ohpcontext {
   width: 950px;
   height: 250px;
   position: relative;
@@ -89,7 +89,7 @@ body {
   margin-top: 20px;
   background-color: #ffffff;
 }
-.pcontext p {
+.ohpcontext p {
   margin: auto;
   padding: 2px;
 }
@@ -104,22 +104,26 @@ body {
   background-color: #778899;
 }
 
-.vcontext {
+.ohvcontext {
   width: 45%;
   height: 250px;
   border: 2px solid;
   padding: 5px;
-  background-color: #000000;
+  background-color: #f0e68c;
 }
-.vcontext p {
+.ohvcontext p {
   margin: auto;
   padding: 2px;
-  color: #f0e68c;
+  color: #000000;
 }
-.vcontext h2 {
+.ohvcontext h2 {
   padding: 3px;
   margin: 3px;
-  color: #f0e68c;
+  color: #000000;
+  font-size: x-large;
+}
+.ohvcontext b {
+  font-size: x-large;
 }
 
 .vb {
@@ -128,20 +132,108 @@ body {
   background-color: #fffafa;
   padding: 2px;
   height: auto;
-}
-.vb .vbr {
   margin-top: 20px;
-  position: relative;
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
 
-.vbr-container {
+.vb-container {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   margin-bottom: 50px;
+}
+
+.setheader {
+  width: 1900px;
+  height: 85px;
+  background-color: #fffafa;
+  border: 3px solid rgb(0, 0, 0);
+  border-color: rgb(0, 0, 0);
+  color: #ffffff;
+  margin: 0px;
+  padding: 0px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.setheader h1 {
+  text-align: center;
+  color: #000000;
+}
+.setheader nav ul {
+  margin: -10px;
+  padding: 0px;
+  text-align: center;
+}
+.setheader nav ul li {
+  list-style-type: none;
+  display: inline;
+  margin: 0 5px;
+  font-size: 15px;
+}
+.setheader nav ul li a {
+  text-decoration: none;
+  color: #000000;
+}
+
+.setintro {
+  width: 1900px;
+  height: 320px;
+  border: 2px solid;
+  background-color: #000000;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.setpic {
+  width: 300px;
+  height: 300px;
+  border: 2px solid;
+  border-color: #000;
+  background-image: url(../image/bokuto2.jpg);
+  background-position: right -200px bottom -610px;
+  background-size: 195%;
+  margin-top: 8px;
+}
+
+.setpcontext {
+  width: 950px;
+  height: 250px;
+  position: relative;
+  border: 2px solid;
+  margin-top: 20px;
+  background-color: #ffffff;
+}
+.setpcontext p {
+  margin: auto;
+  padding: 2px;
+}
+
+.setvcontext {
+  width: 45%;
+  height: 250px;
+  border: 2px solid;
+  padding: 5px;
+  background-color: #000000;
+}
+.setvcontext p {
+  margin: auto;
+  padding: 2px;
+  color: #f0e68c;
+}
+.setvcontext h2 {
+  padding: 3px;
+  margin: 3px;
+  color: #f0e68c;
+  font-size: x-large;
+}
+.setvcontext b {
+  font-size: x-large;
 }
 
 footer {
