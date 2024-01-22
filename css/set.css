@@ -1,7 +1,8 @@
+@charset "UTF-8";
 .header {
   width: 1900px;
   height: 85px;
-  background-color: #778899;
+  background-color: #fffafa;
   border: 3px solid rgb(0, 0, 0);
   border-color: rgb(0, 0, 0);
   color: #ffffff;
@@ -14,6 +15,7 @@
 }
 .header h1 {
   text-align: center;
+  color: #000000;
 }
 .header nav ul {
   margin: -10px;
@@ -28,14 +30,14 @@
 }
 .header nav ul li a {
   text-decoration: none;
-  color: #ffffff;
+  color: #000000;
 }
 
 .intro {
   width: 1900px;
   height: 320px;
   border: 2px solid;
-  background-color: #f0e68c;
+  background-color: #000000;
   position: relative;
   display: flex;
   flex-direction: row;
@@ -47,9 +49,9 @@
   height: 300px;
   border: 2px solid;
   border-color: #000;
-  background-image: url(../image/bokuto2.jpg);
-  background-position: right -200px bottom -610px;
-  background-size: 195%;
+  background-image: url(../image/miya2.jpg);
+  background-position: right -90px bottom -310px;
+  background-size: 150%;
   margin-top: 8px;
 }
 
@@ -58,12 +60,39 @@
   height: 250px;
   position: relative;
   border: 2px solid;
-  margin-top: 20px;
+  margin-block: 10px;
+  padding: auto;
   background-color: #ffffff;
 }
 .pcontext p {
   margin: auto;
   padding: 2px;
+}
+.pcontext b {
+  font-size: large;
+}
+
+.vb {
+  position: relative;
+  border: 2px solid;
+  background-color: #fffafa;
+  background-image: url(../image/background/稻荷神社2.png);
+  background-size: 110%;
+  background-repeat: no-repeat;
+  background-position: right -120px bottom -500px;
+  padding: 2px;
+  height: auto;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.vb-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-bottom: 50px;
 }
 
 .vcontext {
@@ -71,17 +100,17 @@
   height: 250px;
   border: 2px solid;
   padding: 5px;
-  background-color: #f0e68c;
+  background-color: #000000;
 }
 .vcontext p {
   margin: auto;
   padding: 2px;
-  color: #000000;
+  color: #f0e68c;
 }
 .vcontext h2 {
   padding: 3px;
   margin: 3px;
-  color: #000000;
+  color: #f0e68c;
   font-size: x-large;
 }
 .vcontext b {
@@ -91,10 +120,10 @@
 footer {
   width: 1900px;
   height: 80px;
-  background-color: #778899;
+  background-color: #fffafa;
   border: 3px solid rgb(0, 0, 0);
   border-color: rgb(0, 0, 0);
-  color: #ffffff;
+  color: #000000;
   position: relative;
 }
 footer h1 {
@@ -104,4 +133,4 @@ footer nav {
   margin: 0;
   padding: 4px;
   text-align: center;
-}/*# sourceMappingURL=oh.css.map */
+}/*# sourceMappingURL=set.css.map */

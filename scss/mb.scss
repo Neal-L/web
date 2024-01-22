@@ -1,0 +1,138 @@
+.header {
+    width: 1900px;
+    height: 85px;
+    background-color: #fffafa;
+    border: 3px solid rgb(0, 0, 0);
+    border-color: rgb(0, 0, 0);
+    color: #ffffff;
+    margin: 0px;
+    padding: 0px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    h1 {
+        text-align: center;
+        color: #000000;
+    }
+    nav ul {
+        margin: -10px;
+        padding: 0px;
+        text-align: center;
+    }
+    nav ul li {
+        list-style-type: none;
+        display: inline;
+        margin: 0 5px;
+        font-size: 15px;
+    }
+    nav ul li a {
+        text-decoration: none;
+        color: #000000;
+    }
+    }
+    .intro {
+    width: 1900px;
+    height: 320px;
+    border: 2px solid;
+    background-color: #000000;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+    }
+    .pic {
+    width: 300px;
+    height: 300px;
+    border: 2px solid;
+    border-color: #000;
+    background-image: url(../image/miya2.jpg);
+    background-position: right -90px bottom -310px;
+    background-size: 150%;
+    margin-top: 8px;
+    }
+    .pcontext {
+    width: 950px;
+    height: 250px;
+    position: relative;
+    border: 2px solid;
+    margin-block: 10px;
+    padding: auto;
+    background-color: #ffffff;
+
+    p {
+        margin: auto;
+        padding: 2px;
+    }
+    b{
+        font-size: large;
+    }
+    }
+
+    .vb {
+        position: relative;
+        border: 2px solid;
+        background-color: #fffafa;
+        background-image: url(../image/background/稻荷神社2.png);
+        background-size: 110%;
+        background-repeat: no-repeat;
+        background-position: right -120px bottom -500px;
+        padding: 2px;
+        height: auto;
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        
+        }
+        
+        .vb-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        margin-bottom: 50px;
+        }
+
+    .vcontext {
+    width: 45%;
+    height: 250px;
+    border: 2px solid;
+    padding: 5px;
+    background-color: #000000;
+
+    p {
+        margin: auto;
+        padding: 2px;
+        color: #f0e68c;
+    }
+    h2 {
+        padding: 3px;
+        margin: 3px;
+        color: #f0e68c;
+        font-size: x-large;
+    }
+    b {
+        font-size: x-large;
+    }
+    }
+
+    footer {
+    width: 1900px;
+    height: 80px;
+    background-color: #fffafa;
+    border: 3px solid rgb(0, 0, 0);
+    border-color: rgb(0, 0, 0);
+    color: #000000;
+    position: relative;
+
+    h1 {
+        text-align: center;
+    }
+    nav {
+        margin: 0;
+        padding: 4px;
+        text-align: center;
+    }
+    }
