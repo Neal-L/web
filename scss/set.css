@@ -1,7 +1,8 @@
+@charset "UTF-8";
 .header {
   width: 1900px;
   height: 85px;
-  background-color: #DC143C;
+  background-color: #fffafa;
   border: 3px solid rgb(0, 0, 0);
   border-color: rgb(0, 0, 0);
   color: #ffffff;
@@ -47,11 +48,10 @@
   width: 300px;
   height: 300px;
   border: 2px solid;
-  border-color: #fffafa;
-  background-image: url(../image/kulo2.jpeg);
-  background-position: center;
-  background-size: 135%;
-  background-repeat: no-repeat;
+  border-color: #000;
+  background-image: url(../image/miya2.jpg);
+  background-position: right -90px bottom -310px;
+  background-size: 150%;
   margin-top: 8px;
 }
 
@@ -62,8 +62,7 @@
   border: 2px solid;
   margin-block: 10px;
   padding: auto;
-  background-color: #DC143C;
-  color: #fffafa;
+  background-color: #ffffff;
 }
 .pcontext p {
   margin: auto;
@@ -77,6 +76,10 @@
   position: relative;
   border: 2px solid;
   background-color: #fffafa;
+  background-image: url(../image/background/稻荷神社2.png);
+  background-size: 110%;
+  background-repeat: no-repeat;
+  background-position: right -120px bottom -500px;
   padding: 2px;
   height: auto;
   margin-top: 20px;
@@ -97,17 +100,17 @@
   height: 250px;
   border: 2px solid;
   padding: 5px;
-  background-color: #DC143C;
+  background-color: #000000;
 }
 .vcontext p {
   margin: auto;
   padding: 2px;
-  color: #fffafa;
+  color: #f0e68c;
 }
 .vcontext h2 {
   padding: 3px;
   margin: 3px;
-  color: #fffafa;
+  color: #f0e68c;
   font-size: x-large;
 }
 .vcontext b {
@@ -117,7 +120,7 @@
 footer {
   width: 1900px;
   height: 80px;
-  background-color: #DC143C;
+  background-color: #fffafa;
   border: 3px solid rgb(0, 0, 0);
   border-color: rgb(0, 0, 0);
   color: #000000;
@@ -130,4 +133,4 @@ footer nav {
   margin: 0;
   padding: 4px;
   text-align: center;
-}/*# sourceMappingURL=mb.css.map */
+}/*# sourceMappingURL=set.css.map */

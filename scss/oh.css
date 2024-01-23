@@ -1,7 +1,7 @@
 .header {
   width: 1900px;
   height: 85px;
-  background-color: #DC143C;
+  background-color: #778899;
   border: 3px solid rgb(0, 0, 0);
   border-color: rgb(0, 0, 0);
   color: #ffffff;
@@ -14,7 +14,6 @@
 }
 .header h1 {
   text-align: center;
-  color: #000000;
 }
 .header nav ul {
   margin: -10px;
@@ -29,14 +28,14 @@
 }
 .header nav ul li a {
   text-decoration: none;
-  color: #000000;
+  color: #ffffff;
 }
 
 .intro {
   width: 1900px;
   height: 320px;
   border: 2px solid;
-  background-color: #000000;
+  background-color: #f0e68c;
   position: relative;
   display: flex;
   flex-direction: row;
@@ -47,11 +46,10 @@
   width: 300px;
   height: 300px;
   border: 2px solid;
-  border-color: #fffafa;
-  background-image: url(../image/kulo2.jpeg);
-  background-position: center;
-  background-size: 135%;
-  background-repeat: no-repeat;
+  border-color: #000;
+  background-image: url(../image/bokuto2.jpg);
+  background-position: right -200px bottom -610px;
+  background-size: 195%;
   margin-top: 8px;
 }
 
@@ -60,36 +58,12 @@
   height: 250px;
   position: relative;
   border: 2px solid;
-  margin-block: 10px;
-  padding: auto;
-  background-color: #DC143C;
-  color: #fffafa;
+  margin-top: 20px;
+  background-color: #ffffff;
 }
 .pcontext p {
   margin: auto;
   padding: 2px;
-}
-.pcontext b {
-  font-size: large;
-}
-
-.vb {
-  position: relative;
-  border: 2px solid;
-  background-color: #fffafa;
-  padding: 2px;
-  height: auto;
-  margin-top: 20px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-
-.vb-container {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  margin-bottom: 50px;
 }
 
 .vcontext {
@@ -97,17 +71,17 @@
   height: 250px;
   border: 2px solid;
   padding: 5px;
-  background-color: #DC143C;
+  background-color: #f0e68c;
 }
 .vcontext p {
   margin: auto;
   padding: 2px;
-  color: #fffafa;
+  color: #000000;
 }
 .vcontext h2 {
   padding: 3px;
   margin: 3px;
-  color: #fffafa;
+  color: #000000;
   font-size: x-large;
 }
 .vcontext b {
@@ -117,10 +91,10 @@
 footer {
   width: 1900px;
   height: 80px;
-  background-color: #DC143C;
+  background-color: #778899;
   border: 3px solid rgb(0, 0, 0);
   border-color: rgb(0, 0, 0);
-  color: #000000;
+  color: #ffffff;
   position: relative;
 }
 footer h1 {
@@ -130,4 +104,4 @@ footer nav {
   margin: 0;
   padding: 4px;
   text-align: center;
-}/*# sourceMappingURL=mb.css.map */
+}/*# sourceMappingURL=oh.css.map */
