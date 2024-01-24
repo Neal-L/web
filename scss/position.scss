@@ -22,7 +22,9 @@ body {
   height: 100%;
   margin: 0px;
   padding: 0px;
-  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .vedio {

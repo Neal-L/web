@@ -1,12 +1,10 @@
-@charset "UTF-8";
 .header {
-  width: 1900px;
+  width: 100%;
   height: 85px;
-  background-color: #fffafa;
-  border: 3px solid rgb(0, 0, 0);
+  background-color: #FF8C00;
+  border: 0px solid;
   border-color: rgb(0, 0, 0);
-  color: #ffffff;
-  margin: 0px;
+  color: #000000;
   padding: 0px;
   position: relative;
   display: flex;
@@ -14,12 +12,12 @@
   justify-content: center;
 }
 .header h1 {
+  padding-top: 30px;
+  margin: 0%;
   text-align: center;
   color: #000000;
 }
 .header nav ul {
-  margin: -10px;
-  padding: 0px;
   text-align: center;
 }
 .header nav ul li {
@@ -34,11 +32,10 @@
 }
 
 .intro {
-  width: 1900px;
+  width: 100%;
   height: 320px;
-  border: 2px solid;
-  background-color: #000000;
-  position: relative;
+  border: 0px solid;
+  background-color: #fffafa;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -48,10 +45,11 @@
   width: 300px;
   height: 300px;
   border: 2px solid;
-  border-color: #000;
-  background-image: url(../image/miya2.jpg);
-  background-position: right -90px bottom -310px;
-  background-size: 150%;
+  border-color: #000000;
+  background-image: url(../image/Nishinoya2.jpg);
+  background-position: 80% -10%;
+  background-size: 135%;
+  background-repeat: no-repeat;
   margin-top: 8px;
 }
 
@@ -62,7 +60,8 @@
   border: 2px solid;
   margin-block: 10px;
   padding: auto;
-  background-color: #ffffff;
+  background-color: #FF8C00;
+  color: #000000;
 }
 .pcontext p {
   margin: auto;
@@ -74,15 +73,10 @@
 
 .vb {
   position: relative;
-  border: 2px solid;
+  border: 0px solid;
   background-color: #fffafa;
-  background-image: url(../image/background/稻荷神社2.png);
-  background-size: 110%;
-  background-repeat: no-repeat;
-  background-position: right -120px bottom -500px;
   padding: 2px;
   height: auto;
-  margin-top: 20px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -97,7 +91,7 @@
 
 .vcontext {
   width: 45%;
-  height: 250px;
+  height: 320px;
   border: 2px solid;
   padding: 5px;
   background-color: #000000;
@@ -105,32 +99,34 @@
 .vcontext p {
   margin: auto;
   padding: 2px;
-  color: #f0e68c;
+  color: #FF8C00;
 }
 .vcontext h2 {
   padding: 3px;
   margin: 3px;
-  color: #f0e68c;
+  color: #FF8C00;
   font-size: x-large;
 }
 .vcontext b {
   font-size: x-large;
 }
 
-footer {
-  width: 1900px;
+.footer {
+  width: 100%;
   height: 80px;
-  background-color: #fffafa;
-  border: 3px solid rgb(0, 0, 0);
-  border-color: rgb(0, 0, 0);
+  background-color: #FF8C00;
+  border: 0px solid;
+  border-color: #fffafa;
   color: #000000;
-  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
-footer h1 {
+.footer h1 {
   text-align: center;
 }
-footer nav {
+.footer nav {
   margin: 0;
   padding: 4px;
   text-align: center;
-}/*# sourceMappingURL=set.css.map */
+}/*# sourceMappingURL=lb.css.map */

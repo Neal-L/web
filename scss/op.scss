@@ -1,7 +1,7 @@
-    .header {
+.header {
     width: 100%;
     height: 85px;
-    background-color: #fffafa;
+    background-color: #DB7093;
     border: 0px solid ;
     border-color: rgb(0, 0, 0);
     color: #ffffff;
@@ -12,10 +12,10 @@
     justify-content: center;
 
     h1 {
-    padding-top: 30px;
-    margin: 0%;
-    text-align: center;
-    color: #000000;
+        padding-top: 30px;
+        margin: 0%;
+        text-align: center;
+        color: #fffafa;
     }
     nav ul {
         text-align: center;
@@ -28,15 +28,14 @@
     }
     nav ul li a {
         text-decoration: none;
-        color: #000000;
+        color: #fffafa;
     }
     }
     .intro {
     width: 100%;
     height: 320px;
-    border: 0px solid ;
-    background-color: #000000;
-    position: relative;
+    border: 0px solid;
+    background-color: #fffafa;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -46,10 +45,10 @@
     width: 300px;
     height: 300px;
     border: 2px solid;
-    border-color: #000;
-    background-image: url(../image/miya2.jpg);
-    background-position: right -90px bottom -310px;
-    background-size: 150%;
+    border-color: #000000;
+    background-image: url(../image/Ushijima2.jpg);
+    background-position: 80% -10%;
+    background-size: 135%;
     background-repeat: no-repeat;
     margin-top: 8px;
 
@@ -61,7 +60,8 @@
     border: 2px solid;
     margin-block: 10px;
     padding: auto;
-    background-color: #ffffff;
+    background-color: #DB7093;
+    color: #fffafa;
 
     p {
         margin: auto;
@@ -74,12 +74,8 @@
 
     .vb {
         position: relative;
-        border: 0px solid #f0e68c;
+        border: 0px solid;
         background-color: #fffafa;
-        background-image: url(../image/background/稻荷神社2.png);
-        background-size: 110%;
-        background-repeat: no-repeat;
-        background-position: right -120px bottom -500px;
         padding: 2px;
         height: auto;
         display: flex;
@@ -105,12 +101,12 @@
     p {
         margin: auto;
         padding: 2px;
-        color: #f0e68c;
+        color: #DB7093;
     }
     h2 {
         padding: 3px;
         margin: 3px;
-        color: #f0e68c;
+        color: #DB7093;
         font-size: x-large;
     }
     b {
@@ -118,14 +114,16 @@
     }
     }
 
-    footer {
+    .footer {
     width: 100%;
     height: 80px;
-    background-color: #fffafa;
+    background-color: #DB7093;
     border: 0px solid ;
-    border-color: rgb(0, 0, 0);
-    color: #000000;
-    position: relative;
+    border-color: #fffafa;
+    color: #fffafa;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 
     h1 {
         text-align: center;
