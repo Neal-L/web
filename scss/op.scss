@@ -1,41 +1,9 @@
-.header {
-    width: 100%;
-    height: 85px;
-    background-color: #DB7093;
-    border: 0px solid ;
-    border-color: rgb(0, 0, 0);
-    color: #ffffff;
-    padding: 0px;
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
 
-    h1 {
-        padding-top: 30px;
-        margin: 0%;
-        text-align: center;
-        color: #fffafa;
-    }
-    nav ul {
-        text-align: center;
-    }
-    nav ul li {
-        list-style-type: none;
-        display: inline;
-        margin: 0 5px;
-        font-size: 15px;
-    }
-    nav ul li a {
-        text-decoration: none;
-        color: #fffafa;
-    }
-    }
     .intro {
     width: 100%;
     height: 320px;
     border: 0px solid;
-    background-color: #fffafa;
+    background-color: #8d4875;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -46,8 +14,9 @@
     height: 300px;
     border: 2px solid;
     border-color: #000000;
+    background-color: white;
     background-image: url(../image/Ushijima2.jpg);
-    background-position: 80% -10%;
+    background-position: 80% -5%;
     background-size: 135%;
     background-repeat: no-repeat;
     margin-top: 8px;
@@ -57,11 +26,11 @@
     width: 950px;
     height: 250px;
     position: relative;
-    border: 2px solid;
+    border: 2px solid black;
     margin-block: 10px;
     padding: auto;
-    background-color: #DB7093;
-    color: #fffafa;
+    background-color: white;
+    color: #8d4875;
 
     p {
         margin: auto;

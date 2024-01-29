@@ -18,7 +18,6 @@ body {
   background-blend-mode: multiply;
   background-attachment: fixed;
   font-family: Georgia, "Times New Roman", Times, serif, "Noto Sans TC", sans-serif;
-  line-height: 1.4em;
   width: 100%;
   height: 100%;
   margin: 0px;
@@ -36,4 +35,4 @@ body {
   border: 2px solid;
   border-color: #000;
   background-color: #778899;
-}/*# sourceMappingURL=position.css.map */
+}

@@ -1,14 +1,14 @@
 @charset "UTF-8";
-.menuc {
+.menuleg {
   text-align: left;
   padding: 10px; /*區塊留白地方、間隔*/
   width: 290px;
-  height: 350px;
+  height: 315px;
   background: rgba(248, 248, 248, 0.6);
   align-items: center;
 }
 
-.chestcolor {
+.legcolor {
   border-radius: 25px;
   background: #f8f8f8;
   padding: 25px;

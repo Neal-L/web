@@ -27,6 +27,7 @@ body {
         background-color: white;
         ul {
           display: block;
+          
         }
       }
 
@@ -44,6 +45,7 @@ body {
         @include position-absoute(0, 0, 0, 50px);
         @include flex-column(left, space-around);
         display: none;
+        z-index: 10;
         li {
           @include size(100%, 50px);
           &:hover {

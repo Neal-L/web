@@ -5,60 +5,26 @@
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
     <title>胸</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <link rel='stylesheet' type='text/css' media='screen' href='/css/fitness.css'>
-    <link rel='stylesheet' type='text/css' media='screen' href='/css/fit.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='/css/menu.css'>
+    <script src="/JS/importHeader.js"></script>
+    <script src="/JS/fitnesstitle.js"></script>
+    <script src="/JS/footer.js"></script>
     <script src='main.js'></script>
     
 </head>
 
 
 <body>
-    <div class="header">
-        <h1>
-            體能
-        </h1>
+    <component-header></component-header>
+    
+    <component-fitnesstitle></component-fitnesstitle>
+    <div class="intro">
+        <h2>
+            <dt>胸與三頭肌</dt>
+        </h2>
     </div>
-    <div class="topnav">
-        <a href="/Index.html">首頁</a>
-        <a href="/Page/FrontPage/fitness.html">體能</a>
-    </div>
-
-    <div class="row">
-        <div class="column side">
-            <div class="leftsideMenu">
-                <div class="leftsideMenu">
-                    <nav>
-                        <h2>選單</h2>
-                        <a href="/Page/FrontPage/chest.html">胸與三頭肌</a>
-                        <a href="/Page/FrontPage/back.html">背與二頭肌</a>
-                        <a href="/Page/FrontPage/shoulder.html">肩</a>
-                        <a href="/Page/FrontPage/leg.html">腿</a>
-                    </nav>
-                </div>
-            </div>
-        </div>
-
-        <div class="column middle">
-            <div class="topcolor">
-                <div class="words">
-                    <h1>
-                        
-                    </h1>
-                    <p class="topword">
-                        <span>
-                            習慣將成為第二天性
-                            <br>
-                            No pain No gain,
-                            Trust the process
-                        </span>                        
-                    </p>
-                </div>
-            </div>
-            <div class="top">
-                <h2>
-                    <dt>胸與三頭肌</dt>
-                </h2>
-            </div>
+    <div class="main">
+        <div class="body">
             <div class="video">
                 <iframe width="560" height="315" 
                     src="https://www.youtube.com/embed/7YaKMXzX1Gc?si=asY1FEMfcfWHmfBF" 
@@ -94,43 +60,22 @@
                     allowfullscreen>
                 </iframe>
             </div>
-            <br>
-            
-            
-            
         </div>
+        <div class="sidemenu">
+            <h3>建議菜單</h3>
+            <ul>
+                <li>上斜啞鈴臥推(bench 角度30度)  4組*12次(最大RPM40%)</li>
+                <li>平板啞鈴臥推  4組*8-12次(最大RPM80%-40%)</li>
+                <li>Cable夾胸  4組*8-12次(最大RPM80%-40%)</li>
+                <li>三頭繩索下拉  4組*8-12次(最大RPM80%-40%)</li>
+            </ul>
+            <h3>額外訓練項目</h3>
+            <ul>
+                <li>Cable平行出拳  4組*8-12次(最大RPM80%-40%)</li>
+            </ul>
+        </div>
+    </div>
+    <component-footer></component-footer>
 
-        <div class="column side">
-            <br>
-            <div>
-                <nav class="menuc">
-                    <h3>建議菜單</h3>
-                    <ul>
-                        <li>上斜啞鈴臥推(bench 角度30度)  4組*12次(最大RPM40%)</li>
-                        <li>平板啞鈴臥推  4組*8-12次(最大RPM80%-40%)</li>
-                        <li>Cable夾胸  4組*8-12次(最大RPM80%-40%)</li>
-                        <li>三頭繩索下拉  4組*8-12次(最大RPM80%-40%)</li>
-                    </ul>
-                    <h3>額外訓練項目</h3>
-                    <ul>
-                        <li>Cable平行出拳  4組*8-12次(最大RPM80%-40%)</li>
-                    </ul>
-                </nav>                
-            </div>
-            <br>
-            <div>
-                <audio controls autoplay="true" loop="true" >
-                    <source src="audio/SPYAIR.mp3" type="audio/mp3">
-                </audio>
-            </div>
-        </div>
-    </div>
-    
-    
-    <div class="footer">
-        <p>
-            footer
-        </p>
-    </div>
 </body>
 </html>

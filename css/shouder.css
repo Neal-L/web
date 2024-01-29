@@ -1,5 +1,5 @@
 @charset "UTF-8";
-.menuc {
+.menus {
   text-align: left;
   padding: 10px; /*區塊留白地方、間隔*/
   width: 290px;
@@ -8,9 +8,9 @@
   align-items: center;
 }
 
-.chestcolor {
+.shouldercolor {
   border-radius: 25px;
-  background: #f8f8f8;
+  background: #fa4646;
   padding: 25px;
   width: 250px;
   height: 150px;

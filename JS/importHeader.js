@@ -11,7 +11,7 @@ class Component_Header extends HTMLElement {
               <li class="concept">
                 <a href="../Page/FrontPage/concept.html">觀念</a>
                 <ul class="concept-list">
-                  <li>球員位置</li>
+                  <li><a href="/Page/FrontPage/players.html">球員位置</a></li>
                   <li>場上站位</li>
                   <li>球種</li>
                   <li>思考</li>
@@ -30,11 +30,11 @@ class Component_Header extends HTMLElement {
               <li class="training">
                 <a href="../Page/FrontPage/training.html">體能</a>
                 <ul class="training-list">
-                  <li>胸</li>
+                  <li><a href="/Page/FrontPage/chest.html">胸</a></li>
                   <li>臀</li>
-                  <li>腿</li>
-                  <li>肩</li>
-                  <li>背</li>
+                  <li><a href="/Page/FrontPage/leg.html">腿</a></li>
+                  <li><a href="/Page/FrontPage/shoulder.html">肩</a></li>
+                  <li><a href="/Page/FrontPage/back.html">背</a></li>
                 </ul>
               </li>
             </ul>
@@ -44,3 +44,4 @@ class Component_Header extends HTMLElement {
     }
 }
 customElements.define('component-header', Component_Header);
+

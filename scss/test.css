@@ -9,15 +9,15 @@ body
     background-attachment: fixed;
     font-family: Georgia, 'Times New Roman', Times, serif,'Noto Sans TC',sans-serif;
     line-height: 1.4em;
-    width: 1900px;
-    height: 1080px;
-    margin: 0px;
+    width: 100%;
+    height: 100%;
+    
     padding:0px;
     box-sizing: border-box;
 }
 .header
 {
-    width: 1900px;
+    width: 100%;
     height: 100px;
     background-color: rgb(70,130,180);
     border: 3px solid rgb(0, 0, 0);
@@ -47,7 +47,8 @@ body
     text-decoration: none;
     color: #ffffff;
 }
-.oh{
+
+/*.oh{
     width: 1900px;
     height: 176px;
     border: 2px solid;
@@ -71,22 +72,40 @@ body
     background-position:right -130px bottom -665px ;
     background-size: 110%;    
     background-repeat: no-repeat;
-}
-
-.tringular {
+}*/
+.oh{
+    width: 100%;
+    height: 176px;
     
+    background-image:url(../image/bokuto.jpg );
+    background-position:right -130px bottom -665px ;
+    background-size: 110%;    
+    background-repeat: no-repeat;
+}
+.oh h2{
+    display: flex;
+    flex-direction: row;
+    justify-content:  left;
+}
+    .oh  {
+        
+        transition: all 3s ease;
+    }
+
+    .oh:hover {
     position: relative;
-    top: -62px;
-    left: -1px;
+    width: 100%;
+    height: 176px;
+    background-image:url(../image/bokuto2.jpg );
+    background-position:right -130px bottom -665px ;
+    background-size: 110%;    
+    background-repeat: no-repeat;
+    }
     
-    border-style: solid;
-    border-width: 176px 1760px 100px 100px; /* 這裡可以調整三角形的大小 */
-    border-color: #ff0000 transparent transparent transparent; /* 設定三角形的顏色 */
-}
 
-footer
+.footer
 {
-    width: 1900px;
+    width: 100%;
     height: 100px;
     background-color: rgb(70,130,180);
     border: 3px solid rgb(0, 0, 0);

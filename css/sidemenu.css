@@ -1,0 +1,59 @@
+.sideMenu {
+  width: 300px;
+  height: 100%;
+  background-color: #ff7575;
+  border-right: 3px solid #d1d1d1;
+  display: flex;
+  flex-direction: column;
+  padding: 50px 0;
+  box-shadow: 5px 0 5px rgba(48, 60, 77, 0.6);
+}
+
+form {
+  display: flex;
+  margin: 0 10px 50px;
+  border-radius: 100px;
+  border: 1px solid #fff;
+}
+form input {
+  width: 85%;
+}
+form button {
+  width: 15%;
+}
+form input,
+form button {
+  border: none;
+  padding: 5px 10px;
+  background-color: transparent;
+  color: #fff;
+}
+form input:focus,
+form button:focus {
+  outline: none;
+}
+
+nav a {
+  display: block;
+  color: #fff;
+  padding: 20px 10px;
+  position: relative;
+  font-weight: 300;
+}
+nav a .fas {
+  margin-right: -1.1em;
+  transform: scale(0);
+  transition: 0.3s;
+}
+nav a:hover .fas {
+  margin-right: 0em;
+  transform: scale(1);
+}
+nav a + a::before {
+  content: "";
+  position: absolute;
+  border-top: 1px solid #ffffff;
+  left: 10px;
+  right: 10px;
+  top: 0px;
+}

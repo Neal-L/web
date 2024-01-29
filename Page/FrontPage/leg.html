@@ -5,57 +5,27 @@
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
     <title>腿</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <link rel='stylesheet' type='text/css' media='screen' href='../../css/fitness.css'>
-    <link rel='stylesheet' type='text/css' media='screen' href='../../css/fit.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='/css/menu.css'>
+    <script src="/JS/importHeader.js"></script>
+    <script src="/JS/fitnesstitle.js"></script>
+    <script src="/JS/footer.js"></script>
     <script src='main.js'></script>
     
 </head>
 
 
 <body>
-    <div class="header">
-        <h1>
-            體能
-        </h1>
+    <component-header></component-header>
+    
+    <component-fitnesstitle></component-fitnesstitle>
+    
+    <div class="intro">
+        <h2>
+            <dt>腿</dt>
+        </h2>
     </div>
-    <div class="topnav">
-        <a href="/Index.html">首頁</a>
-        <a href="/Page/FrontPage/fitness.html">體能</a>
-    </div>
-
-    <div class="row">
-        <div class="column side">
-            <div class="leftsideMenu">
-                <nav>
-                    <h2>選單</h2>
-                    <a href="/Page/FrontPage/chest.html">胸與三頭肌</a>
-                    <a href="/Page/FrontPage/back.html">背與二頭肌</a>
-                    <a href="/Page/FrontPage/shoulder.html">肩</a>
-                    <a href="/Page/FrontPage/leg.html">腿</a>
-                </nav>
-            </div>
-        </div>
-
-        <div class="column middle">
-            <div class="topcolor">
-                <div class="words">
-                    <h1>
-                        
-                    </h1>
-                    <p class="topword">
-                        <span>
-                            No pain No gain
-                            <br>
-                            Trust the process
-                        </span>                        
-                    </p>
-                </div>
-            </div>
-            <div class="top">
-                <h2>
-                    <dt>腿</dt>
-                </h2>
-            </div>
+    <div class="main">
+        <div class="body">
             <div class="video">
                 <iframe width="560" height="315" src="https://www.youtube.com/embed/QbhXFP1raGM?si=DN_SAJwYGyc9ehVE" 
                 title="YouTube video player" frameborder="0" 
@@ -91,40 +61,24 @@
                 gyroscope; picture-in-picture; web-share" allowfullscreen>
                 </iframe>
             </div>    
+        
         </div>
-
-        <div class="column side">
-            <br>
-            <div class="menuleg">
-                <h3>建議菜單</h3>
-                <ul>
-                    <li>髖外展  4組*12次(最大RPM60%)</li>
-                    <li>髖內收  4組*12次(最大RPM60%)</li>
-                    <li>深蹲  4組*6次(最大RPM80%)</li>
-                    <li>提踵  4組*8次(最大RPM80%)</li>
-                    <li>壺鈴擺盪  4組*8次(最大RPM80%)</li>
-                </ul>
-                <h3>額外訓練項目</h3>
-                <ul>
-                    <li>保加利亞分腿蹲</li>
-                    <li>跳箱訓練</li>
-                </ul>
-            </div>
-            <br>
-
-            <div>
-                <audio controls autoplay="true" loop="true" >
-                    <source src="audio/SPYAIR.mp3" type="audio/mp3">
-                </audio>
-            </div>
+        <div class="sidemenu">
+            <h3>建議菜單</h3>
+            <ul>
+                <li>髖外展  4組*12次(最大RPM60%)</li>
+                <li>髖內收  4組*12次(最大RPM60%)</li>
+                <li>深蹲  4組*6次(最大RPM80%)</li>
+                <li>提踵  4組*8次(最大RPM80%)</li>
+                <li>壺鈴擺盪  4組*8次(最大RPM80%)</li>
+            </ul>
+            <h3>額外訓練項目</h3>
+            <ul>
+                <li>保加利亞分腿蹲</li>
+                <li>跳箱訓練</li>
+            </ul>
         </div>
     </div>
-    
-    
-    <div class="footer">
-        <p>
-            footer
-        </p>
-    </div>
+    <component-footer></component-footer>
 </body>
 </html>
