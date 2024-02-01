@@ -3,8 +3,8 @@ body
 {
     
     /*background-image: url(https://cdn2.ettoday.net/images/6509/6509883.jpg);*/
-    background-color: rgba(95, 95, 95, 0.1);
-    background-image: url(/image/Odai.jpeg);
+    background-color: wheat;
+    // background-image: url(/image/Odai.jpeg);
     background-size: cover; /* 等比例縮放，讓圖片可以蓋滿元素寬高*/
     overflow: scroll;
     background-blend-mode: multiply;
@@ -24,7 +24,7 @@ body
 }
 
 .main{
-    display: inline-block;
+    
     width: 100%;
     height: 100%;
     display: flex;
@@ -70,4 +70,5 @@ body
 }
 .video{
     padding: 10px;
+    
 }

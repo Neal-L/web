@@ -12,7 +12,6 @@ figcaption {
 
 body {
   background-color: rgba(95, 95, 95, 0.1);
-  background-image: url(file:D:/4庭/前端練習/html/image/Odai.jpeg);
   background-size: cover; /* 等比例縮放，讓圖片可以蓋滿元素寬高*/
   overflow: scroll;
   background-blend-mode: multiply;
@@ -22,6 +21,7 @@ body {
   height: 100%;
   margin: 0px;
   padding: 0px;
+  position: relative;
   display: flex;
   flex-direction: column;
   justify-content: center;

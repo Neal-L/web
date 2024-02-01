@@ -9,7 +9,7 @@ class Component_Header extends HTMLElement {
             <ul class="nav">
               <li><a href="/index.html">首頁</a></li>
               <li class="concept">
-                <a href="../Page/FrontPage/concept.html">觀念</a>
+                <a href="/Page/FrontPage/concept.html">觀念</a>
                 <ul class="concept-list">
                   <li><a href="/Page/FrontPage/players.html">球員位置</a></li>
                   <li>場上站位</li>
@@ -28,7 +28,7 @@ class Component_Header extends HTMLElement {
                 </ul>
               </li>
               <li class="training">
-                <a href="../Page/FrontPage/training.html">體能</a>
+                <a href="/Page/FrontPage/fitness.html">體能</a>
                 <ul class="training-list">
                   <li><a href="/Page/FrontPage/chest.html">胸</a></li>
                   <li>臀</li>

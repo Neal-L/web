@@ -5,121 +5,53 @@
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
     <title>體能</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <link rel='stylesheet' type='text/css' media='screen' href='../css/fitness.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='/css/fitness.css'>
+    <script src="/JS/importHeader.js"></script>
+    <script src="/JS/fitnesstitle.js"></script>
+    <script src="/JS/footer.js"></script>
     <script src='main.js'></script>
     
 </head>
 
 
 <body>
-    <div class="header">
-        <h1>
-            體能
-        </h1>
-    </div>
-    <div class="topnav">
-        <a href="/Index.html">首頁</a>
-        <a href="../FrontPage/fitness.html">體能</a>
-    </div>
-
-    <div class="row">
-        <div class="column side">
-            <div class="leftsideMenu">
-                <nav>
-                    <h2>選單</h2>
-                    <a href="../FrontPage/chest.html">胸</a>
-                    <a href="../FrontPage/back.html">背</a>
-                    <a href="../FrontPage/shoulder.html">肩</a>
-                    <a href="../FrontPage/leg.html">腿</a>
-                </nav>
-            </div>
-        </div>
-
-        <div class="column middle">
-            <div class="topcolor">
-                <div class="words">
-                    <h1>
-                        
-                    </h1>
-                    <p class="topword">
-                        <span>
-                            習慣將成為第二天性
-                            <br>
-                            No pain No gain,
-                            Trust the process
-                            
-                        </span>                        
-                    </p>
-                </div>
-            </div>
-            
-            <div class="chestcolor">
-                <p>
-                    <div class="words">
-                        <h2>
-                            <a href="/Page/FrontPage/chest.html">胸</a>
-                        </h2>
-                        <dd>胸肌在排球運動中是個重要的肌群，在進行推這個動作時，胸肌是必須的，
-                        <br>三頭肌通常會與胸肌搭配訓練。</br>
-                        </dd>
-                    </div>
-                    
-                </p>
-            </div>
-            
-            <div class="backcolor">
-                <p>
-                    <div class="words">
-                        <h2>
-                            <dt>背</dt>
-                        </h2>
-                        
-                        <dd>背部在排球運動中是個重要的肌群，在進行拉這個動作時，背肌是必須的，
-                        <br>背肌通常會搭配二頭肌一起做訓練</br>
-                        </dd>
-                    </div>
-                </p>    
-            </div>
-            
-            
-            <div class="legcolor">
-                <p>
-                    <div class="words">
-                        <h2>
-                            <dt>腿</dt>
-                        </h2>      
-                        <dd>腿部在排球運動中是個重要的肌群，在進行起跳與接球防守中，佔有非常重要的地位。
-                        </dd>
-                    </div>
-                </p>
-            </div>
-            
-            <div class="shouldercolor">
-                <p>
-                    <div class="words">
-                        <h2>
-                            <dt>肩</dt>
-                        </h2>             
-                        <dd>肩部在排球運動中是個重要的肌群，肩膀的穩定性是非常重要，
-                        <br>肩部的穩定，能夠大幅減少受傷的風險。</br>
-                        </dd>
-                    </div>                   
-                </p>
-            </div>
-        </div>
-
-        <div class="column side">
-            <p>
-                1
-            </p>
-        </div>
+    <component-header></component-header>
+    <div class="intro">
+        <component-fitnesstitle></component-fitnesstitle>
     </div>
     
-    
-    <div class="footer">
-        <p>
-            footer
-        </p>
+    <div class="main">
+        
+        <div class="position">
+            <div class="seletion">
+                <a href="/Page/FrontPage/chest.html"><img src="/image/hinada1.jpg"></a>
+                <h2>胸</h2>
+            </div>
+            <div class="seletion">
+                <h2>臀</h2>
+                <a href="/Page/FrontPage/botton.html"><img src="/image/kanmo1.jpg"></a>
+                
+            </div>
+            <div class="seletion">
+                <a href="/Page/FrontPage/leg.html"><img src="/image/oikawa1.jpg"></a>
+                <h2>腿</h2>
+            </div>
+            <div class="seletion">
+                <a href="/Page/FrontPage/shoulder.html"><img src="/image/Hoshiumi2.jpg"></a>
+                <h2>肩</h2>
+            </div>
+            <div class="seletion">
+                <a href="/Page/FrontPage/back.html"><img src="/image/Kita.jpg"></a>
+                <h2>背</h2>
+            </div>
+        </div>
     </div>
+    <div class="flex">
+        
+    </div>
+        
+    
+    
+    <component-footer></component-footer>
 </body>
 </html>
