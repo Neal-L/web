@@ -42,7 +42,7 @@ body {
   height: 176px;
   background-image: url(../image/bokuto2.jpg);
   background-position: right -130px top -50px;
-  background-size: 110%;
+  background-size: 100%;
   background-repeat: no-repeat;
 }
 .oh h2 {
@@ -51,6 +51,10 @@ body {
   color: #000;
   margin-top: 20px;
   margin-left: 20px;
+}
+.oh a {
+  text-decoration: none;
+  color: #D4AF37;
 }
 
 .setter {
@@ -67,7 +71,9 @@ body {
   transition: all 3s ease;
   width: 100%;
   height: 176px;
-  background-size: 110%;
+  background-image: url(../image/miya2.jpg);
+  background-position: right -130px top -300px;
+  background-size: 100%;
   background-repeat: no-repeat;
 }
 .setter h2 {
@@ -76,6 +82,10 @@ body {
   color: #000;
   margin-top: 20px;
   margin-left: 20px;
+}
+.setter a {
+  text-decoration: none;
+  color: #000;
 }
 
 .mb {
@@ -92,7 +102,9 @@ body {
   transition: all 3s ease;
   width: 100%;
   height: 176px;
-  background-size: 110%;
+  background-image: url(../image/kulo2.jpg);
+  background-position: right 0px top -400px;
+  background-size: 100%;
   background-repeat: no-repeat;
 }
 .mb h2 {
@@ -101,6 +113,10 @@ body {
   color: #000;
   margin-top: 20px;
   margin-left: 20px;
+}
+.mb a {
+  text-decoration: none;
+  color: #DC143C;
 }
 
 .op {
@@ -117,7 +133,9 @@ body {
   transition: all 3s ease;
   width: 100%;
   height: 176px;
-  background-size: 110%;
+  background-image: url(../image/Ushijima2.jpg);
+  background-position: right -130px top -50px;
+  background-size: 100%;
   background-repeat: no-repeat;
 }
 .op h2 {
@@ -126,6 +144,10 @@ body {
   color: #000;
   margin-top: 20px;
   margin-left: 20px;
+}
+.op a {
+  text-decoration: none;
+  color: #DB7093;
 }
 
 .lb {
@@ -142,7 +164,9 @@ body {
   transition: all 3s ease;
   width: 100%;
   height: 176px;
-  background-size: 110%;
+  background-image: url(../image/Nishinoya2.jpg);
+  background-position: right 0px top -300px;
+  background-size: 100%;
   background-repeat: no-repeat;
 }
 .lb h2 {
@@ -151,4 +175,8 @@ body {
   color: #000;
   margin-top: 20px;
   margin-left: 20px;
+}
+.lb a {
+  text-decoration: none;
+  color: white;
 }

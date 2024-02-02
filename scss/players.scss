@@ -23,6 +23,7 @@ figcaption {
     margin: 1px;
     padding: 0px;
     box-sizing: border-box;
+    
     }
 
 
@@ -38,6 +39,7 @@ figcaption {
         display: flex;
         flex-direction: row;
         justify-content: left;
+        
     
         
         &:hover{
@@ -46,7 +48,7 @@ figcaption {
             height: 176px;
             background-image:url(../image/bokuto2.jpg );
             background-position:right -130px top -50px ;
-            background-size: 110%;    
+            background-size: 100%;    
             background-repeat: no-repeat;
         }
 
@@ -54,9 +56,12 @@ figcaption {
             padding: 0px;
             margin: 0px;
             color: #000;
-            
             margin-top: 20px;
             margin-left: 20px;
+        }
+        a{
+            text-decoration: none;
+            color: #D4AF37;
         }
 }
 .setter{
@@ -75,9 +80,9 @@ figcaption {
             transition: all 3s ease;
             width: 100%;
             height: 176px;
-            // background-image:url(../image/bokuto2.jpg );
-            // background-position:right -130px top -50px ;
-            background-size: 110%;    
+            background-image:url(../image/miya2.jpg );
+            background-position:right -130px top -300px ;
+            background-size: 100%;    
             background-repeat: no-repeat;
         }
 
@@ -88,6 +93,10 @@ figcaption {
             
             margin-top: 20px;
             margin-left: 20px;
+        }
+        a{
+            text-decoration: none;
+            color: #000;
         }
 }
 .mb
@@ -107,9 +116,9 @@ figcaption {
             transition: all 3s ease;
             width: 100%;
             height: 176px;
-            // background-image:url(../image/bokuto2.jpg );
-            // background-position:right -130px top -50px ;
-            background-size: 110%;    
+            background-image:url(../image/kulo2.jpg );
+            background-position:right 0px  top -400px ;
+            background-size: 100%;    
             background-repeat: no-repeat;
         }
 
@@ -120,6 +129,10 @@ figcaption {
             
             margin-top: 20px;
             margin-left: 20px;
+        }
+        a{
+            text-decoration: none;
+            color: #DC143C;
         }
 }
 .op
@@ -137,9 +150,9 @@ figcaption {
             transition: all 3s ease;
             width: 100%;
             height: 176px;
-            // background-image:url(../image/bokuto2.jpg );
-            // background-position:right -130px top -50px ;
-            background-size: 110%;    
+            background-image:url(../image/Ushijima2.jpg );
+            background-position:right -130px top -50px ;
+            background-size: 100%;    
             background-repeat: no-repeat;
         }
 
@@ -150,6 +163,10 @@ figcaption {
             
             margin-top: 20px;
             margin-left: 20px;
+        }
+        a{
+            text-decoration: none;
+            color: #DB7093;
         }
 }
 .lb
@@ -168,9 +185,9 @@ figcaption {
             transition: all 3s ease;
             width: 100%;
             height: 176px;
-            // background-image:url(../image/bokuto2.jpg );
-            // background-position:right -130px top -50px ;
-            background-size: 110%;    
+            background-image:url(../image/Nishinoya2.jpg );
+            background-position:right 0px top -300px ;
+            background-size: 100%;    
             background-repeat: no-repeat;
         }
 
@@ -181,5 +198,9 @@ figcaption {
             
             margin-top: 20px;
             margin-left: 20px;
+        }
+        a{
+            text-decoration: none;
+            color: white;
         }
 }

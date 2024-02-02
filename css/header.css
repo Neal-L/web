@@ -7,13 +7,13 @@ body {
 
 .header {
   background-color: #778899;
+  color: #D4AF37;
   width: 100%;
   height: 100px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  color: #D4AF37;
 }
 .header .nav {
   width: 80%;
@@ -33,7 +33,7 @@ body {
   position: relative;
 }
 .header .nav li:hover {
-  background-color: #708090;
+  background-color: white;
 }
 .header .nav li:hover ul {
   display: block;

@@ -9,10 +9,11 @@ body {
 }
 
 .header {
-  background-color: $gray-2;
+  background-color: #778899;
+  color: #D4AF37;
   @include size(100%, 100px);
   @include flex-column(center, space-between);
-
+  
   .nav {
     @include size(80%, 50px);
     @include flex-row(space-around, center);
