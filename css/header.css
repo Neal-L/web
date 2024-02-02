@@ -13,6 +13,7 @@ body {
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
+  color: #D4AF37;
 }
 .header .nav {
   width: 80%;

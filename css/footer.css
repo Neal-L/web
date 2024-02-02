@@ -10,8 +10,9 @@ body {
   height: 100%;
   display: block;
   align-items: center;
-  font-size: x-large;
+  font-size: 30px;
   background-color: #778899;
   text-align: center;
   padding: 10px;
+  color: #D4AF37;
 }

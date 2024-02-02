@@ -13,8 +13,8 @@ class Component_Header extends HTMLElement {
                 <ul class="concept-list">
                   <li><a href="/Page/FrontPage/players.html">球員位置</a></li>
                   <li><a href="/Page/FrontPage/rotation.html">場上站位</a></li>
-                  <li>戰術球種</li>
-                  <li>球員思考</li>
+                  <li><a href="/Page/FrontPage/tactics.html">戰術球種</a></li>
+                  <li><a href="/Page/FrontPage/think.html">球員思考</a></li>
                 </ul>
               </li>
               <li class="skill">
