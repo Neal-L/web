@@ -32,14 +32,7 @@ class Component_Header extends HTMLElement {
                 <a href="/Page/FrontPage/training.html">練習</a>
                 <ul class="training-list">
                   <li><a href="/Page/FrontPage/ballskill.html">球技</a></li>
-                  <ul>
-                  <a href="/Page/FrontPage/fitness.html">體能</a>
-                    <li><a href="/Page/FrontPage/chest.html">胸</a></li>
-                    <li>臀</li>
-                    <li><a href="/Page/FrontPage/leg.html">腿</a></li>
-                    <li><a href="/Page/FrontPage/shoulder.html">肩</a></li>
-                    <li><a href="/Page/FrontPage/back.html">背</a></li>
-                  </ul>
+                  <li><a href="/Page/FrontPage/fitness.html">體能</a></li>
                 </ul>
               </li>
             </ul>

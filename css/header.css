@@ -70,7 +70,7 @@ body {
   height: 50px;
 }
 .header .nav li ul li:hover {
-  background-color: aqua;
+  background-color: #6495ED;
   transition: 0.5s ease-in-out;
   cursor: pointer;
 }
