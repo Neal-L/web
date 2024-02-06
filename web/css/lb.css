@@ -1,0 +1,100 @@
+.intro {
+  width: 100%;
+  height: 320px;
+  border: 0px solid;
+  background-color: #f28400;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.pic {
+  width: 300px;
+  height: 300px;
+  border: 2px solid;
+  border-color: #000000;
+  background-color: white;
+  background-image: url(../image/Nishinoya2.jpg);
+  background-position: 80% -10%;
+  background-size: 135%;
+  background-repeat: no-repeat;
+  margin-top: 8px;
+}
+
+.pcontext {
+  width: 950px;
+  height: 250px;
+  position: relative;
+  border: 2px solid;
+  margin-block: 10px;
+  padding: auto;
+  background-color: #393c5d;
+  color: white;
+}
+.pcontext p {
+  margin: auto;
+  padding: 2px;
+}
+.pcontext b {
+  font-size: large;
+}
+
+.vb {
+  position: relative;
+  border: 0px solid;
+  background-color: #393c5d;
+  padding: 10px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.vb-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-bottom: 50px;
+}
+
+.vcontext {
+  width: 45%;
+  height: 320px;
+  border: 2px solid white;
+  padding: 5px;
+  background-color: #000000;
+}
+.vcontext p {
+  margin: auto;
+  padding: 2px;
+  color: #FF8C00;
+}
+.vcontext h2 {
+  padding: 3px;
+  margin: 3px;
+  color: #FF8C00;
+  font-size: x-large;
+}
+.vcontext b {
+  font-size: x-large;
+}
+
+.footer {
+  width: 100%;
+  height: 80px;
+  background-color: #FF8C00;
+  border: 0px solid;
+  border-color: #fffafa;
+  color: #393c5d;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.footer h1 {
+  text-align: center;
+}
+.footer nav {
+  margin: 0;
+  padding: 4px;
+  text-align: center;
+}/*# sourceMappingURL=lb.css.map */

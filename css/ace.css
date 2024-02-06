@@ -1,0 +1,57 @@
+@font-face {
+  font-family: "masafont-Regular";
+  src: url(https://cdn.jsdelivr.net/gh/max32002/masafont@2.1/webfont/MasaFont-Regular.woff2) format("woff2"), url(https://cdn.jsdelivr.net/gh/max32002/masafont@2.1/webfont/MasaFont-Regular.woff) format("woff");
+}
+header, section, footer, aside, nav, article, figure, figcaption {
+  display: block;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  background-color: whitesmoke;
+  overflow: scroll;
+  background-blend-mode: multiply;
+  background-attachment: fixed;
+  font-family: Georgia, "Times New Roman", Times, serif, "Noto Sans TC", sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0px;
+}
+
+.main {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0;
+  writing-mode: vertical-lr;
+  background-color: #CFB53B;
+}
+
+.intro {
+  width: 98%;
+  height: 95%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0;
+  font-family: masafont-Regular;
+  border: 5px solid black;
+  background-color: #B0C4DE;
+}
+.intro h1 {
+  text-align: left;
+  font-size: 72px;
+}
+.intro h2 {
+  font-size: 64px;
+}
+.intro p {
+  font-size: 56px;
+}/*# sourceMappingURL=ace.css.map */

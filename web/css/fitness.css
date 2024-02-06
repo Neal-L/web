@@ -1,0 +1,82 @@
+header, section, footer, aside, nav, article, figure, figcaption {
+  display: block;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  background-color: wheat;
+  overflow: scroll;
+  background-blend-mode: multiply;
+  background-attachment: fixed;
+  font-family: Georgia, "Times New Roman", Times, serif, "Noto Sans TC", sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0px;
+}
+
+.intro {
+  margin: 10px;
+  color: black;
+}
+
+.main {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+  margin: 0px;
+}
+
+.position {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  box-sizing: border-box;
+}
+
+.seletion {
+  width: 300px;
+  height: 325px;
+  border: 1px solid black;
+  border-radius: 15px;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  margin: 0px;
+  padding: 0px;
+  overflow: hidden;
+  position: relative;
+}
+.seletion h2 {
+  position: absolute;
+  left: 10px;
+  color: black;
+  margin: 0px;
+  padding: 10px;
+  z-index: 10;
+  -webkit-text-stroke: 0.5px whitesmoke;
+}
+.seletion a img {
+  width: 100%;
+  height: 100%;
+  display: block;
+  -o-object-fit: cover;
+     object-fit: cover;
+  padding: 0px;
+  margin: 0px;
+}
+.seletion a img:hover {
+  transform: scale(1.2, 1.2);
+  transition: 0.5s;
+}
+
+.flex {
+  flex: 1;
+}/*# sourceMappingURL=fitness.css.map */

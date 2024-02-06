@@ -1,0 +1,182 @@
+@charset "UTF-8";
+header,
+section,
+footer,
+aside,
+nav,
+article,
+figure,
+figcaption {
+  display: block;
+}
+
+body {
+  background-color: rgba(95, 95, 95, 0.1);
+  background-image: url(file:D:/4庭/前端練習/html/image/Odai.jpeg);
+  background-size: cover; /* 等比例縮放，讓圖片可以蓋滿元素寬高*/
+  overflow: scroll;
+  background-blend-mode: multiply;
+  background-attachment: fixed;
+  font-family: Georgia, "Times New Roman", Times, serif, "Noto Sans TC", sans-serif;
+  width: 100%;
+  height: 100vh;
+  margin: 1px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.oh {
+  width: 100%;
+  height: 176px;
+  border: 0px solid;
+  background-image: url(/image/bokuto3.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+}
+.oh:hover {
+  transition: all 3s ease;
+  width: 100%;
+  height: 176px;
+  background-image: url(../image/bokuto2.jpg);
+  background-position: right -130px top -50px;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+.oh h2 {
+  padding: 0px;
+  margin: 0px;
+  color: #000;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+.oh a {
+  text-decoration: none;
+  color: #D4AF37;
+}
+
+.setter {
+  width: 100%;
+  height: 176px;
+  background-image: url(../image/miya3.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+}
+.setter:hover {
+  transition: all 3s ease;
+  width: 100%;
+  height: 176px;
+  background-image: url(../image/miya2.jpg);
+  background-position: right -130px top -300px;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+.setter h2 {
+  padding: 0px;
+  margin: 0px;
+  color: #000;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+.setter a {
+  text-decoration: none;
+  color: #000;
+}
+
+.mb {
+  width: 100%;
+  height: 176px;
+  background-image: url(../image/kulo3.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+}
+.mb:hover {
+  transition: all 3s ease;
+  width: 100%;
+  height: 176px;
+  background-image: url(../image/kulo2.jpg);
+  background-position: right 0px top -400px;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+.mb h2 {
+  padding: 0px;
+  margin: 0px;
+  color: #000;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+.mb a {
+  text-decoration: none;
+  color: #DC143C;
+}
+
+.op {
+  width: 100%;
+  height: 176px;
+  background-image: url(../image/Ushijima3.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+}
+.op:hover {
+  transition: all 3s ease;
+  width: 100%;
+  height: 176px;
+  background-image: url(../image/Ushijima2.jpg);
+  background-position: right -130px top -50px;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+.op h2 {
+  padding: 0px;
+  margin: 0px;
+  color: #000;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+.op a {
+  text-decoration: none;
+  color: #DB7093;
+}
+
+.lb {
+  width: 100%;
+  height: 176px;
+  background-image: url(../image/Nishinoya3.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+}
+.lb:hover {
+  transition: all 3s ease;
+  width: 100%;
+  height: 176px;
+  background-image: url(../image/Nishinoya2.jpg);
+  background-position: right 0px top -300px;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+.lb h2 {
+  padding: 0px;
+  margin: 0px;
+  color: #000;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+.lb a {
+  text-decoration: none;
+  color: white;
+}/*# sourceMappingURL=players.css.map */

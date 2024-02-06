@@ -1,0 +1,135 @@
+@charset "UTF-8";
+.header {
+  width: 100%;
+  height: 85px;
+  background-color: #fffafa;
+  border: 0px solid;
+  border-color: rgb(0, 0, 0);
+  color: #ffffff;
+  padding: 0px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.header h1 {
+  padding-top: 30px;
+  margin: 0%;
+  text-align: center;
+  color: #000000;
+}
+.header nav ul {
+  text-align: center;
+}
+.header nav ul li {
+  list-style-type: none;
+  display: inline;
+  margin: 0 5px;
+  font-size: 15px;
+}
+.header nav ul li a {
+  text-decoration: none;
+  color: #000000;
+}
+
+.intro {
+  width: 100%;
+  height: 320px;
+  border: 0px solid;
+  background-color: #000000;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.pic {
+  width: 300px;
+  height: 300px;
+  border: 2px solid;
+  border-color: #000;
+  background-image: url(../image/miya2.jpg);
+  background-position: right -90px bottom -310px;
+  background-size: 150%;
+  background-repeat: no-repeat;
+  margin-top: 8px;
+}
+
+.pcontext {
+  width: 950px;
+  height: 250px;
+  position: relative;
+  border: 2px solid;
+  margin-block: 10px;
+  padding: auto;
+  background-color: #ffffff;
+}
+.pcontext p {
+  margin: auto;
+  padding: 2px;
+}
+.pcontext b {
+  font-size: large;
+}
+
+.vb {
+  position: relative;
+  border: 0px solid #f0e68c;
+  background-color: #fffafa;
+  background-image: url(../image/background/稻荷神社2.png);
+  background-size: 110%;
+  background-repeat: no-repeat;
+  background-position: right -120px bottom -500px;
+  padding: 2px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.vb-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-bottom: 50px;
+}
+
+.vcontext {
+  width: 45%;
+  height: 250px;
+  border: 2px solid;
+  padding: 5px;
+  background-color: #000000;
+}
+.vcontext p {
+  margin: auto;
+  padding: 2px;
+  color: #f0e68c;
+}
+.vcontext h2 {
+  padding: 3px;
+  margin: 3px;
+  color: #f0e68c;
+  font-size: x-large;
+}
+.vcontext b {
+  font-size: x-large;
+}
+
+footer {
+  width: 100%;
+  height: 80px;
+  background-color: #fffafa;
+  border: 0px solid;
+  border-color: rgb(0, 0, 0);
+  color: #000000;
+  position: relative;
+}
+footer h1 {
+  text-align: center;
+}
+footer nav {
+  margin: 0;
+  padding: 4px;
+  text-align: center;
+}/*# sourceMappingURL=set.css.map */
