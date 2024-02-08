@@ -14,6 +14,7 @@ body
     flex-direction: column;
     justify-content: center;
     margin: 0px ;
+    
 }
 
 .intro{
@@ -30,9 +31,13 @@ body
     display: flex;
     flex-direction: row;
     justify-content: center;
+    position: relative;
+    
+    flex:1;
     
 }
 .sidemenu{
+    width: 30%;
     height: 30%;
     background-color:( #fcfcfc,0.3);
     
@@ -58,7 +63,7 @@ body
     }
 } 
 .body{
-    width: 80%;
+    width: 70%;
     height: 100%;
     background-color:( #fcfcfc,0.3);
     
@@ -67,6 +72,7 @@ body
     justify-content: center;
     text-align: center;
     font-size: large;
+    position: relative;
 }
 .video{
     padding: 10px;

@@ -17,5 +17,7 @@ body {
   color: #D4AF37;
   text-align: center;
   padding: 10px;
-  position: relative;
-}/*# sourceMappingURL=footer.css.map */
+  position: absolute;
+  bottom: 1;
+  left: 0;
+}

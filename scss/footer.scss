@@ -5,6 +5,7 @@ body {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    
 }
 
 .footer{
@@ -16,8 +17,9 @@ body {
     color: #D4AF37;
     text-align: center;
     padding: 10px;
-    position: relative;
-    
+    position: absolute;
+    bottom: 1;
+    left: 0;
     
     
 }
