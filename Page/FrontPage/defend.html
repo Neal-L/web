@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv='X-UA-Compatible' content='IE=edge'>
+<title>防守站位</title>
+<meta name='viewport' content='width=device-width, initial-scale=1'>
+<link rel="stylesheet" type="text/css" href="/css/defend.css">
+<script src="/JS/importHeader.js"></script>
+<script src="/JS/footer.js"></script>
+</head>
+
+<body>
+    <component-header></component-header>
+    <div class="main">
+        <div class="container1">
+            <canvas id="myCanvas"></canvas>
+        </div>
+        <div class="container2">
+            <div class="intro"> 
+                <p>主攻手 <button class="ws">　</button></p>
+                <p>攔中手 <button class="mb">　</button></p>
+                <p>舉球舉對 <button class="stop">　</button></p>
+                <p>自由球員 <button class="lb">　</button></p>
+            </div>
+            <div class="control">
+                <p>對面主攻攻擊</p>
+                <button class="startWS">按下</button>
+                <button class="reset">重製</button>
+                <p>對面舉對攻擊</p>
+                <button class="startOP">按下</button>
+                <p>對面攔中攻擊</p>
+                <button class="startMB">按下</button>
+            </div>
+        </div>
+        <script src="/JS/defend.js"></script>
+        <!---<script src="/grape/grape.js"></script>--->
+    </div>
+    <component-footer></component-footer>
+</body>
+</html>
