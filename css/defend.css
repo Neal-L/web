@@ -1,0 +1,86 @@
+header, section, footer, aside, nav, article, figure, figcaption {
+  display: block;
+}
+
+body {
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+  overflow: scroll;
+  background-blend-mode: multiply;
+  background-attachment: fixed;
+  font-family: Georgia, "Times New Roman", Times, serif, "Noto Sans TC", sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0px;
+}
+
+.main {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+}
+
+.container1 {
+  width: 650px;
+  height: 550px;
+}
+
+.container2 {
+  width: 550px;
+  height: 100px;
+  padding: 10px;
+}
+
+.intro {
+  width: 95%;
+  height: 60%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-bottom: 10px;
+  padding: 15px;
+}
+.intro p {
+  margin: 4px;
+  text-align: left;
+  font-size: 20px;
+}
+
+.control {
+  width: 95%;
+}
+
+.ws {
+  background-color: #4682B4;
+  padding: 5px 10px;
+  border-radius: 100%;
+  border: none;
+}
+
+.mb {
+  background-color: #87CEEB;
+  padding: 5px 10px;
+  border-radius: 100%;
+  border: none;
+}
+
+.stop {
+  background-color: #6A5ACD;
+  padding: 5px 10px;
+  border-radius: 100%;
+  border: none;
+}
+
+.lb {
+  background-color: #4B0082;
+  padding: 5px 10px;
+  border-radius: 100%;
+  border: none;
+}
