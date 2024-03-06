@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>訓練</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='/css/training.css'>
+    <script src="/JS/importHeader.js"></script>
+    <script src="/JS/footer.js"></script>
+    <script src='main.js'></script>
+    <script src="/JS/vue.js"></script>
+</head>
+<body>
+    <div id="app">
+        <!--将msg的值绑定到p元素-->
+        <p>{{msg}}</p >
+        </div>
+        <script>
+        //创建vue实例
+        var vm=new Vue({
+            el:"#app",
+        data:{
+            msg:"Hello Vue.js"
+            }
+        })
+        </script>
+</body>
+</html>
