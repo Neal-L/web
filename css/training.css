@@ -44,8 +44,7 @@ body h1 {
   width: 100%;
   height: 100%;
   display: block;
-  -o-object-fit: fill;
-     object-fit: fill;
+  object-fit: fill;
 }
 .block a img:hover {
   width: 100%;
@@ -82,4 +81,4 @@ body h1 {
   font-size: 42px;
   font-weight: bold;
   -webkit-text-stroke: 1px orange;
-}/*# sourceMappingURL=training.css.map */
+}

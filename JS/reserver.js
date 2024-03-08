@@ -1,10 +1,11 @@
-let startWS = document.querySelector(".startWS");
-let startOP = document.querySelector(".startOP");
-let startMB = document.querySelector(".startMB");
+let case1 = document.querySelector(".case1");
+let case2 = document.querySelector(".case2");
+let case3 = document.querySelector(".case3");
+let case4 = document.querySelector(".case4");  
+let case5 = document.querySelector(".case5");
+let case6 = document.querySelector(".case6");
 let canvas = document.getElementById("myCanvas");
 let ctx = canvas.getContext("2d");
-let height  = document.querySelector(".ws");
-let width  = document.querySelector(".mb");
 let reset = document.querySelector(".reset");
 canvas.height = 600;
 canvas.width = 750;
@@ -12,14 +13,21 @@ let x = canvas.width;
 let y = canvas.height;
 
 let x4=120,y4=70;
-let x3=300,y2=120;
-let x2=450,y3=120;
-let x1=450,y1=400;
-let x6=300,y6=500;
-let x5=150,y5=400;
+let x3=450,y2=70;
+let x2=280,y3=70;
+let x6=450,y6=350;
+let x1=280,y1=350;
+let x5=120,y5=350;
 drawsquare(0,0);
-volleyball(580,100);
+
+//----------------------------------//
 drawcircle_4(120,70);
+drawcircle_3(450,70);
+drawcircle_2(280,70);
+//-------------------------------//
+drawcircle_6(450,350);
+drawcircle_1(280,350);
+drawcircle_5(120,350);
 //繪製球場
 function drawsquare(x,y){//場地
     let sx = x;
@@ -145,3 +153,88 @@ function drawcircle_5(x,y){//5號位
     ctx.fill()
     ctx.closePath();
 }
+
+function case_1(){
+
+    ctx.clearRect(0,0,canvas.width,canvas.height)
+    drawsquare(0,0);
+    fontWSMove(1,28)
+    backWSMove(-1,-5);
+    LBMove(17,1);
+    fontStOpMove(0,-2);
+    MBMove(1,7);
+    backStOpMove(10,10);
+
+}
+function fontWSMove(x,y){
+    
+    let dx = x;
+    let dy = y;
+    if(x4<130 && y4 < 350){
+        x4 += dx;
+        y4 += dy;
+    }
+    drawcircle_4(x4,y4);
+}
+function backWSMove(x,y){
+    
+
+    let dx = x;
+    let dy = y;
+    if(x6 > 440 && y6 > 300){
+        x6 += dx;
+        y6 += dy;
+    }
+    drawcircle_6(x6,y6);
+}
+
+function LBMove(x,y){
+    let dx = x;
+    let dy = y;
+    
+    if(x5 < 290 && y5 < 360){
+        x5 += dx;
+        y5 += dy;
+    }
+    drawcircle_5(x5,y5);
+}
+function MBMove(x,y){
+    
+    let dx = x;
+    let dy = y;
+    
+    if(x3 < 460 && y3 < 140){
+        x3 += dx;
+        y3 += dy;
+    }
+    drawcircle_3(x3,y3);
+    
+}
+function fontStOpMove(x,y){
+    
+    let dx = x;
+    let dy = y;
+    if(x2 >= 280 && y2 > 50){
+        x2 += dx;
+        y2 += dy;
+    }
+    drawcircle_2(x2,y2);
+    
+}
+function backStOpMove(x,y){
+    
+    let dx = x;
+    let dy = y;
+    
+    if(x1 < 380 && y1 < 450){
+        x1 += dx;
+        y1 += dy;
+    }
+    drawcircle_1(x1,y1);
+
+}
+
+function actionCase_1(){
+    actionCase_1 = setInterval(case_1, 100);
+}
+case1.addEventListener("click",actionCase_1);
