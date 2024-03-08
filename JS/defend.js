@@ -6,8 +6,8 @@ let ctx = canvas.getContext("2d");
 let height  = document.querySelector(".ws");
 let width  = document.querySelector(".mb");
 let reset = document.querySelector(".reset");
-canvas.height = window.innerHeight;
-canvas.width = window.innerWidth;
+canvas.height = 600;
+canvas.width = 750;
 let x = canvas.width;
 let y = canvas.height;
 
@@ -186,7 +186,7 @@ drawcircle_2(450,120);
 drawcircle_1(450,400);
 drawcircle_6(300,500);
 drawcircle_5(150,400);
-volleyball(700,100);
+volleyball(620,100);
 
 function WSAtackMove(){//對方主攻手攻擊
     
@@ -513,7 +513,7 @@ function resetgrape(){
     drawcircle_1(x1=450,y1=400)
     drawcircle_6(x6=300,y6=500)
     drawcircle_5(x5=150,y5=400)
-    volleyball(700,100)
+    volleyball(620,100)
 }
 
 startWS.addEventListener("click", actionWS);
