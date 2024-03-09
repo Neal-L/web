@@ -4,6 +4,7 @@ let case3 = document.querySelector(".case3");
 let case4 = document.querySelector(".case4");  
 let case5 = document.querySelector(".case5");
 let case6 = document.querySelector(".case6");
+let rotate = document.querySelector(".rotate");
 let canvas = document.getElementById("myCanvas");
 let ctx = canvas.getContext("2d");
 let reset = document.querySelector(".reset");
@@ -19,7 +20,6 @@ let x6=450,y6=350;
 let x1=280,y1=350;
 let x5=120,y5=350;
 drawsquare(0,0);
-
 //----------------------------------//
 drawcircle_4(120,70);
 drawcircle_3(450,70);
@@ -155,78 +155,93 @@ function drawcircle_5(x,y){//5號位
 }
 
 function case_1(){
-
     ctx.clearRect(0,0,canvas.width,canvas.height)
     drawsquare(0,0);
-    fontWSMove(1,28)
-    backWSMove(-1,-5);
-    LBMove(17,1);
-    fontStOpMove(0,-2);
-    MBMove(1,7);
-    backStOpMove(10,10);
+    fontWSMove(1,28,130,350)
+    backWSMove(-1,-5,440,300);
+    LBMove(17,1,290,360);
+    fontStOpMove(0,-2,280,50);
+    MBMove(1,7,460,140);
+    backStOpMove(10,10,380,450);
 
 }
-function fontWSMove(x,y){
+function case_2(){
+    ctx.clearRect(0,0,canvas.width,canvas.height)
+    drawsquare(0,0);
+    
+    
+}
+
+function fontWSMove(x,y,a,b){
     
     let dx = x;
     let dy = y;
-    if(x4<130 && y4 < 350){
+    let ex = a;
+    let ey = b;
+    if(x4 <= ex && y4 <= ey){
         x4 += dx;
         y4 += dy;
     }
     drawcircle_4(x4,y4);
 }
-function backWSMove(x,y){
+function backWSMove(x,y,a,b){
     
 
     let dx = x;
     let dy = y;
-    if(x6 > 440 && y6 > 300){
+    let ex = a;
+    let ey = b;
+    if(x6 >= ex  && y6 >= ey ){
         x6 += dx;
         y6 += dy;
     }
     drawcircle_6(x6,y6);
 }
 
-function LBMove(x,y){
+function LBMove(x,y,a,b){
     let dx = x;
     let dy = y;
-    
-    if(x5 < 290 && y5 < 360){
+    let ex = a;
+    let ey = b;
+    if(x5 < ex && y5 < ey){
         x5 += dx;
         y5 += dy;
     }
     drawcircle_5(x5,y5);
 }
-function MBMove(x,y){
+function MBMove(x,y,a,b){
     
     let dx = x;
     let dy = y;
-    
-    if(x3 < 460 && y3 < 140){
+    let ex = a;
+    let ey = b;
+    if(x3 < ex && y3 < ey){
         x3 += dx;
         y3 += dy;
     }
     drawcircle_3(x3,y3);
     
 }
-function fontStOpMove(x,y){
+function fontStOpMove(x,y,a,b){
     
     let dx = x;
     let dy = y;
-    if(x2 >= 280 && y2 > 50){
+    let ex = a;
+    let ey = b;
+    if(x2 >= ex && y2 > ey){
         x2 += dx;
         y2 += dy;
     }
     drawcircle_2(x2,y2);
     
 }
-function backStOpMove(x,y){
+function backStOpMove(x,y,a,b){
     
     let dx = x;
     let dy = y;
-    
-    if(x1 < 380 && y1 < 450){
+    let ex = a;
+    let ey = b;
+    if(x1 < ex && y1 < ey){
         x1 += dx;
         y1 += dy;
     }
@@ -237,4 +252,9 @@ function backStOpMove(x,y){
 function actionCase_1(){
     actionCase_1 = setInterval(case_1, 100);
 }
+function actionCase_2(){
+    actionCase_2 = setInterval(case_2, 100);
+}
+
 case1.addEventListener("click",actionCase_1);
+case2.addEventListener("click",actionCase_2);
