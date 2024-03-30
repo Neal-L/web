@@ -1,20 +1,13 @@
 <script setup>
-import { onMounted,ref } from 'vue';
 
-const count = ref(0);
-const increment = () => {
-  count.value += 1;
-};
-
-onMounted(() => {
-  console.log(count,value);
-});
 </script>
 
 <template>
   <div>
-    <h1>Vue: {{ count }}</h1>
-    <button @click="increment">Count is: {{ count }}</button>
+    <h1></h1>
+    <input type="text" v-model="name" />
+    {{ name }}
+
   </div>
 </template>
 

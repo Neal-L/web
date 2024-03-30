@@ -68,11 +68,12 @@ body {
   width: 100%;
   height: 100%;
   display: block;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
   padding: 0px;
   margin: 0px;
 }
 .seletion a img:hover {
   transform: scale(1.2, 1.2);
   transition: 0.5s;
-}
+}/*# sourceMappingURL=fitness.css.map */
