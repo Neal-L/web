@@ -3,4 +3,18 @@ body {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+}
+
+.main {
+  width: 100%;
+  height: 75vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  border: 1px solid black;
+}
+.main h1 {
+  text-align: center;
 }/*# sourceMappingURL=index.css.map */
